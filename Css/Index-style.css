@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* Start Header */
+#header-nav{
+    background-color: rgb(21, 84, 133);
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url('/Images/Td-logo.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 15px 0;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand h1{ /* Anasayfa Ismi */
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top: 10px;
+    text-shadow: 3px 3px rgb(104, 8, 8), 3px 3px black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+#nav-list a:hover{
+    color: white;
+    text-shadow: 1px 1px red, 1px 1px black;
+}
+#nav-list a span{
+    font-size: 1.2em;
+}
+/* End Header */
