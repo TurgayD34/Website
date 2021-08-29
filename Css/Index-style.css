@@ -51,3 +51,22 @@ body{
     font-size: 1.2em;
 }
 /* End Header */
+/* Start Footer */
+.footer{
+    background-color: rgb(21, 84, 133);
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: 0;
+    color: #fff;
+}
+.footer div.row{
+    margin-bottom: 30px;
+}
+#bilgiler, #note{
+    line-height: 2;
+}
+#bilgiler span{
+    font-size: 1.3em;
+}
+/* End Footer */
